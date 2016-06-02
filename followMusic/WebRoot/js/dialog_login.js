@@ -109,7 +109,7 @@ function center($dialog){
 	var wh = $(window).height();
 	var _left = (ww - width) / 2;
 	var _top = (wh - height) / 2;
-	$dialog.css({top:_top,left:_left});
+	$dialog.css({top:_top,left:_left,position:"fixed"});
 }
 
 //浏览器窗口改变的时候居中定位
